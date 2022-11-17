@@ -1,0 +1,29 @@
+
+(1,)
+/usr/local/lib/python3.9/site-packages/keras/optimizers/optimizer_v2/adam.py:114: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super().__init__(name, **kwargs)
+/usr/local/lib/python3.9/site-packages/keras/engine/training_v1.py:2356: UserWarning: `Model.state_updates` will be removed in a future version. This property should not be used in TensorFlow 2.0, as `updates` are applied automatically.
+  updates=self.state_updates,
+Episode:1 Score:-49949.509665855716 x:0 y:800 rssi: -11.500994273634886
+Episode:2 Score:-49959.9047282689 x:500 y:0 rssi: -7.325638626280702
+Episode:3 Score:-50000 x:0 y:1000 rssi: -13.820485038841705
+Episode:4 Score:-49901.176757028574 x:500 y:0 rssi: -7.325638626280702
+Episode:5 Score:-49908.74064853639 x:100 y:0 rssi: -7.325638626280702
+Episode:6 Score:-49888.37246258788 x:500 y:0 rssi: -7.325638626280702
+Episode:7 Score:-49922.752801040646 x:0 y:700 rssi: -10.16560518993271
+Episode:8 Score:-49913.335200693764 x:500 y:0 rssi: -7.325638626280702
+Episode:9 Score:-49965.47596893199 x:0 y:900 rssi: -12.718330240965772
+Episode:10 Score:-50000 x:0 y:0 rssi: -8.738930154245397
+Episode:11 Score:-49936.97533443915 x:100 y:0 rssi: -7.325638626280702
+Episode:12 Score:-49975.51159856083 x:500 y:0 rssi: -7.325638626280702
+Episode:13 Score:-49884.82623397486 x:500 y:0 rssi: -7.325638626280702
+Episode:14 Score:-49920.34155633481 x:0 y:800 rssi: -11.500994273634886
+Episode:15 Score:-49902.30133440646 x:500 y:0 rssi: -7.325638626280702
+Traceback (most recent call last):
+  File "/Users/serna/Desktop/rssi_reinforecementLearning/src/main.py", line 43, in <module>
+    main(trainAgent=False,getAgent=True,visualize=True)
+  File "/Users/serna/Desktop/rssi_reinforecementLearning/src/main.py", line 28, in main
+    env.render()
+  File "/Users/serna/Desktop/rssi_reinforecementLearning/src/RobotENV.py", line 82, in render
+    screen.blit(rssiBlock.image, rssiBlock.rect.topleft)
+KeyboardInterrupt

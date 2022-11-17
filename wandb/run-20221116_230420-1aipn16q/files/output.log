@@ -1,0 +1,149 @@
+/usr/local/lib/python3.9/site-packages/keras/optimizers/optimizer_v2/adam.py:114: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  super().__init__(name, **kwargs)
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+/usr/local/lib/python3.9/site-packages/keras/engine/training_v1.py:2356: UserWarning: `Model.state_updates` will be removed in a future version. This property should not be used in TensorFlow 2.0, as `updates` are applied automatically.
+  updates=self.state_updates,
+/usr/local/lib/python3.9/site-packages/rl/memory.py:37: UserWarning: Not enough entries to sample without replacement. Consider increasing your warm-up phase to avoid oversampling!
+  warnings.warn('Not enough entries to sample without replacement. Consider increasing your warm-up phase to avoid oversampling!')
+Training for 50000 steps ...
+Interval 1 (0 steps performed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10000/10000 [==============================] - 56s 6ms/step - reward: 92.6774
+1 episodes - episode_reward: 926774.041 [926774.041, 926774.041] - loss: 1851.905 - accuracy: 0.433 - mean_q: 2454.743
+Interval 2 (10000 steps performed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10000/10000 [==============================] - 50s 5ms/step - reward: 28.9589
+1 episodes - episode_reward: 289589.342 [289589.342, 289589.342] - loss: 3131.622 - accuracy: 0.291 - mean_q: 5275.795
+Interval 3 (20000 steps performed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10000/10000 [==============================] - 47s 5ms/step - reward: -2.0674
+1 episodes - episode_reward: -20673.735 [-20673.735, -20673.735] - loss: 5907.805 - accuracy: 0.254 - mean_q: 5685.343
+Interval 4 (30000 steps performed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10000/10000 [==============================] - 54s 5ms/step - reward: 100.0000
+1 episodes - episode_reward: 1000000.000 [1000000.000, 1000000.000] - loss: 4583.269 - accuracy: 0.250 - mean_q: 6158.267
+Interval 5 (40000 steps performed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10000/10000 [==============================] - 55s 6ms/step - reward: 87.6258
+done, took 262.341 seconds

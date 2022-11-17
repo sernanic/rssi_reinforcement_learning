@@ -1,0 +1,299 @@
+2022-11-17 17:33:37,939 INFO    StreamThr :80961 [internal.py:wandb_internal():88] W&B internal server running at pid: 80961, started at: 2022-11-17 17:33:37.933868
+2022-11-17 17:33:37,945 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: status
+2022-11-17 17:33:37,948 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: status
+2022-11-17 17:33:37,950 DEBUG   SenderThread:80961 [sender.py:send():303] send: header
+2022-11-17 17:33:37,950 INFO    WriterThread:80961 [datastore.py:open_for_write():75] open: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/run-2hfpfi6x.wandb
+2022-11-17 17:33:37,978 DEBUG   SenderThread:80961 [sender.py:send():303] send: run
+2022-11-17 17:33:38,215 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: check_version
+2022-11-17 17:33:38,216 INFO    SenderThread:80961 [dir_watcher.py:__init__():216] watching files in: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files
+2022-11-17 17:33:38,233 INFO    SenderThread:80961 [sender.py:_start_run_threads():928] run started: 2hfpfi6x with start time 1668724417.92075
+2022-11-17 17:33:38,233 DEBUG   SenderThread:80961 [sender.py:send():303] send: summary
+2022-11-17 17:33:38,234 INFO    SenderThread:80961 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 17:33:38,235 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: check_version
+2022-11-17 17:33:38,337 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: run_start
+2022-11-17 17:33:38,346 DEBUG   HandlerThread:80961 [system_info.py:__init__():31] System info init
+2022-11-17 17:33:38,347 DEBUG   HandlerThread:80961 [system_info.py:__init__():46] System info init done
+2022-11-17 17:33:38,347 INFO    HandlerThread:80961 [system_monitor.py:start():150] Starting system monitor
+2022-11-17 17:33:38,347 INFO    SystemMonitor:80961 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-17 17:33:38,348 INFO    HandlerThread:80961 [system_monitor.py:probe():168] Collecting system info
+2022-11-17 17:33:38,349 DEBUG   HandlerThread:80961 [system_info.py:probe():195] Probing system
+2022-11-17 17:33:38,349 INFO    SystemMonitor:80961 [interfaces.py:start():168] Started cpu
+2022-11-17 17:33:38,349 INFO    SystemMonitor:80961 [interfaces.py:start():168] Started disk
+2022-11-17 17:33:38,349 INFO    SystemMonitor:80961 [interfaces.py:start():168] Started memory
+2022-11-17 17:33:38,350 INFO    SystemMonitor:80961 [interfaces.py:start():168] Started network
+2022-11-17 17:33:38,356 DEBUG   HandlerThread:80961 [system_info.py:_probe_git():180] Probing git
+2022-11-17 17:33:38,393 DEBUG   HandlerThread:80961 [system_info.py:_probe_git():188] Probing git done
+2022-11-17 17:33:38,394 DEBUG   HandlerThread:80961 [system_info.py:probe():241] Probing system done
+2022-11-17 17:33:38,394 DEBUG   HandlerThread:80961 [system_monitor.py:probe():177] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.6', 'heartbeatAt': '2022-11-17T22:33:38.349078', 'startedAt': '2022-11-17T22:33:37.903195', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/serna/Desktop/rssi_reinforecementLearning/src/main.py', 'codePath': 'rssi_reinforecementLearning/src/main.py', 'git': {'remote': 'https://github.com/cryptoTradingBotRicoSern/main-project.git', 'commit': '8a4fcbfecbfbbffbe48a5cd434f238974d3a211e'}, 'email': 'sernan100@gmail.com', 'root': '/Users/serna/Desktop', 'host': 'Nicolass-MacBook-Pro.local', 'username': 'serna', 'executable': '/usr/local/opt/python@3.9/bin/python3.9', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 1400, 'min': 1400, 'max': 1400}, 'cpu_freq_per_core': [{'current': 1400, 'min': 1400, 'max': 1400}], 'disk': {'total': 233.46913528442383, 'used': 21.82449722290039}, 'memory': {'total': 8.0}}
+2022-11-17 17:33:38,394 INFO    HandlerThread:80961 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-17 17:33:38,394 INFO    HandlerThread:80961 [system_monitor.py:probe():181] Publishing system info
+2022-11-17 17:33:38,394 DEBUG   HandlerThread:80961 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-17 17:33:38,395 DEBUG   HandlerThread:80961 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-17 17:33:38,396 INFO    HandlerThread:80961 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-17 17:33:38,440 DEBUG   SenderThread:80961 [sender.py:send():303] send: files
+2022-11-17 17:33:38,440 INFO    SenderThread:80961 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-17 17:33:38,447 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:33:38,448 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:33:38,545 DEBUG   SenderThread:80961 [sender.py:send():303] send: telemetry
+2022-11-17 17:33:38,546 DEBUG   SenderThread:80961 [sender.py:send():303] send: metric
+2022-11-17 17:33:38,546 DEBUG   SenderThread:80961 [sender.py:send():303] send: telemetry
+2022-11-17 17:33:38,546 DEBUG   SenderThread:80961 [sender.py:send():303] send: metric
+2022-11-17 17:33:38,546 DEBUG   SenderThread:80961 [sender.py:send():303] send: metric
+2022-11-17 17:33:38,546 DEBUG   SenderThread:80961 [sender.py:send():303] send: metric
+2022-11-17 17:33:38,938 INFO    Thread-16 :80961 [upload_job.py:push():143] Uploaded file /var/folders/cy/dygx4mdj3cbb7zsgdj0dhxlr0000gn/T/tmp_w5qcip_wandb/1qh711gk-wandb-metadata.json
+2022-11-17 17:33:39,218 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/requirements.txt
+2022-11-17 17:33:39,218 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:33:39,218 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/wandb-summary.json
+2022-11-17 17:33:39,218 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/wandb-metadata.json
+2022-11-17 17:33:41,221 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:33:53,553 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:33:53,553 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:34:08,651 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:34:08,652 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:34:09,270 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/config.yaml
+2022-11-17 17:34:23,759 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:34:23,760 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:34:38,352 DEBUG   SystemMonitor:80961 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-17 17:34:38,354 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:34:38,858 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:34:38,858 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:34:39,348 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:34:53,966 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:34:53,966 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:35:08,356 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:35:09,063 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:35:09,063 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:35:24,164 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:35:24,164 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:35:31,482 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:35:38,356 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:35:39,266 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:35:39,266 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:35:54,395 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:35:54,395 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:36:08,359 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:36:09,496 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:36:09,496 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:36:21,605 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:36:24,599 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:36:24,599 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:36:38,361 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:36:39,711 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:36:39,712 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:36:54,815 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:36:54,815 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:37:05,739 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:37:08,369 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:37:09,919 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:37:09,919 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:37:25,014 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:37:25,015 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:37:38,368 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:37:40,119 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:37:40,119 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:37:49,856 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:37:55,223 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:37:55,223 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:38:08,372 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:38:10,332 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:38:10,332 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:38:25,435 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:38:25,435 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:38:32,974 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:38:38,373 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:38:40,525 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:38:40,525 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:38:55,627 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:38:55,627 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:39:08,375 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:39:10,721 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:39:10,721 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:39:17,107 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:39:25,816 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:39:25,817 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:39:38,378 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:39:40,923 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:39:40,923 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:39:56,011 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:39:56,011 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:39:59,193 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:40:08,379 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:40:11,102 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:40:11,103 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:40:26,213 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:40:26,213 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:40:38,380 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:40:41,296 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:40:41,317 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:40:41,317 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:40:56,409 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:40:56,410 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:41:08,381 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:41:11,530 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:41:11,530 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:41:25,417 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:41:26,627 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:41:26,627 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:41:38,383 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:41:41,731 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:41:41,731 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:41:56,831 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:41:56,833 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:42:08,387 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:42:11,934 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:42:11,934 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:42:13,550 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:42:27,033 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:42:27,034 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:42:38,389 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:42:42,130 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:42:42,131 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:42:57,234 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:42:57,235 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:42:57,662 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:43:08,389 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:43:12,339 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:43:12,339 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:43:27,440 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:43:27,440 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:43:38,390 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:43:42,534 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:43:42,534 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:43:43,772 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:43:57,651 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:43:57,652 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:44:08,392 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:44:12,827 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:44:12,827 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:44:27,939 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:44:27,940 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:44:38,393 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:44:39,899 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:44:43,050 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:44:43,050 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:44:58,168 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:44:58,168 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:45:08,393 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:45:13,277 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:45:13,278 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:45:28,382 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:45:28,382 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:45:38,043 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:45:38,395 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:45:43,483 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-17 17:45:43,483 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: stop_status
+2022-11-17 17:45:52,450 DEBUG   SenderThread:80961 [sender.py:send():303] send: exit
+2022-11-17 17:45:52,450 INFO    SenderThread:80961 [sender.py:send_exit():442] handling exit code: 255
+2022-11-17 17:45:52,451 INFO    SenderThread:80961 [sender.py:send_exit():444] handling runtime: 734
+2022-11-17 17:45:52,452 INFO    SenderThread:80961 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 17:45:52,452 INFO    SenderThread:80961 [sender.py:send_exit():450] send defer
+2022-11-17 17:45:52,452 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,453 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-17 17:45:52,453 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,453 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-17 17:45:52,453 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 1
+2022-11-17 17:45:52,453 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,453 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-17 17:45:52,453 INFO    HandlerThread:80961 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-17 17:45:52,473 DEBUG   SystemMonitor:80961 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-17 17:45:52,474 DEBUG   SystemMonitor:80961 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-17 17:45:52,474 INFO    HandlerThread:80961 [interfaces.py:finish():173] Joined cpu
+2022-11-17 17:45:52,475 INFO    HandlerThread:80961 [interfaces.py:finish():173] Joined disk
+2022-11-17 17:45:52,475 INFO    HandlerThread:80961 [interfaces.py:finish():173] Joined memory
+2022-11-17 17:45:52,475 INFO    HandlerThread:80961 [interfaces.py:finish():173] Joined network
+2022-11-17 17:45:52,475 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,475 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-17 17:45:52,475 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 2
+2022-11-17 17:45:52,475 DEBUG   SenderThread:80961 [sender.py:send():303] send: stats
+2022-11-17 17:45:52,476 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,476 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-17 17:45:52,476 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,476 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-17 17:45:52,476 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 3
+2022-11-17 17:45:52,476 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,476 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-17 17:45:52,477 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,477 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-17 17:45:52,477 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 4
+2022-11-17 17:45:52,477 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,477 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-17 17:45:52,477 DEBUG   SenderThread:80961 [sender.py:send():303] send: summary
+2022-11-17 17:45:52,478 INFO    SenderThread:80961 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-17 17:45:52,478 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,478 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-17 17:45:52,478 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 5
+2022-11-17 17:45:52,478 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,478 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-17 17:45:52,478 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,478 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-17 17:45:52,478 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 6
+2022-11-17 17:45:52,479 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:52,479 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-17 17:45:52,479 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:52,479 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-17 17:45:53,073 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/wandb-summary.json
+2022-11-17 17:45:53,456 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-17 17:45:54,074 INFO    Thread-13 :80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:45:55,482 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 7
+2022-11-17 17:45:55,482 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: poll_exit
+2022-11-17 17:45:55,484 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:55,484 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-17 17:45:55,485 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:55,485 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-17 17:45:55,485 INFO    SenderThread:80961 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-17 17:45:56,080 INFO    SenderThread:80961 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:45:56,081 INFO    SenderThread:80961 [dir_watcher.py:finish():392] scan: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files
+2022-11-17 17:45:56,081 INFO    SenderThread:80961 [dir_watcher.py:finish():406] scan save: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/requirements.txt requirements.txt
+2022-11-17 17:45:56,082 INFO    SenderThread:80961 [dir_watcher.py:finish():406] scan save: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log output.log
+2022-11-17 17:45:56,083 INFO    SenderThread:80961 [dir_watcher.py:finish():406] scan save: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/config.yaml config.yaml
+2022-11-17 17:45:56,090 INFO    SenderThread:80961 [dir_watcher.py:finish():406] scan save: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/wandb-summary.json wandb-summary.json
+2022-11-17 17:45:56,098 INFO    SenderThread:80961 [dir_watcher.py:finish():406] scan save: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/wandb-metadata.json wandb-metadata.json
+2022-11-17 17:45:56,098 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 8
+2022-11-17 17:45:56,103 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:56,103 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-17 17:45:56,103 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:56,103 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-17 17:45:56,103 INFO    SenderThread:80961 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-17 17:45:56,652 INFO    Thread-19 :80961 [upload_job.py:push():143] Uploaded file /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/config.yaml
+2022-11-17 17:45:56,656 INFO    Thread-20 :80961 [upload_job.py:push():143] Uploaded file /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/wandb-summary.json
+2022-11-17 17:45:56,728 INFO    Thread-17 :80961 [upload_job.py:push():143] Uploaded file /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/requirements.txt
+2022-11-17 17:45:56,764 INFO    Thread-18 :80961 [upload_job.py:push():143] Uploaded file /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/files/output.log
+2022-11-17 17:45:56,969 INFO    Thread-12 :80961 [sender.py:transition_state():463] send defer: 9
+2022-11-17 17:45:56,970 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:56,970 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-17 17:45:56,970 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:56,970 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-17 17:45:56,971 INFO    SenderThread:80961 [file_pusher.py:join():173] waiting for file pusher
+2022-11-17 17:45:56,971 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 10
+2022-11-17 17:45:56,971 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:56,971 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-17 17:45:56,972 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:56,972 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-17 17:45:57,285 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 11
+2022-11-17 17:45:57,286 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:57,286 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-17 17:45:57,286 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:57,286 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-17 17:45:57,287 INFO    SenderThread:80961 [sender.py:transition_state():463] send defer: 12
+2022-11-17 17:45:57,288 DEBUG   SenderThread:80961 [sender.py:send():303] send: final
+2022-11-17 17:45:57,288 DEBUG   SenderThread:80961 [sender.py:send():303] send: footer
+2022-11-17 17:45:57,289 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: defer
+2022-11-17 17:45:57,289 INFO    HandlerThread:80961 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-17 17:45:57,290 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: defer
+2022-11-17 17:45:57,290 INFO    SenderThread:80961 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-17 17:45:57,292 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-17 17:45:57,293 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: poll_exit
+2022-11-17 17:45:57,293 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: server_info
+2022-11-17 17:45:57,295 DEBUG   SenderThread:80961 [sender.py:send_request():317] send_request: server_info
+2022-11-17 17:45:57,300 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-17 17:45:57,301 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-17 17:45:57,495 INFO    MainThread:80961 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-17 17:45:57,495 INFO    MainThread:80961 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-17 17:45:57,495 INFO    MainThread:80961 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-17 17:45:57,497 DEBUG   HandlerThread:80961 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-17 17:45:57,497 INFO    HandlerThread:80961 [handler.py:finish():814] shutting down handler
+2022-11-17 17:45:58,293 INFO    WriterThread:80961 [datastore.py:close():279] close: /Users/serna/Desktop/rssi_reinforecementLearning/wandb/run-20221117_173337-2hfpfi6x/run-2hfpfi6x.wandb
+2022-11-17 17:45:58,499 INFO    SenderThread:80961 [sender.py:finish():1331] shutting down sender
+2022-11-17 17:45:58,499 INFO    SenderThread:80961 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-17 17:45:58,499 INFO    SenderThread:80961 [file_pusher.py:join():173] waiting for file pusher
+2022-11-17 17:45:58,606 INFO    MainThread:80961 [internal.py:handle_exit():78] Internal process exited
